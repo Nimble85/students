@@ -1,0 +1,5 @@
+FROM openjdk
+COPY 
+
+EXPOSE 8080
+EXPOSE 80
