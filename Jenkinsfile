@@ -23,7 +23,6 @@ node {
     }
     
     stage ('Docker build')  {
-    checkout scm
     def dockerfile = 'Dockerfile'
     def customImage = docker.build("testproject:${env.BUILD_ID}", "-f ${dockerfile} ./dockerfiles") 
     }
