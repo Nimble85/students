@@ -27,3 +27,4 @@ node {
     def customImage = docker.build("testproject:${env.BUILD_ID}", "-f ${dockerfile} ./dockerfiles") 
     }
 }
+
