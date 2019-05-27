@@ -3,7 +3,13 @@ Simple java springboot application
 endpoint :8080/health should answer "UP"
 
 
-* rewte
+* After first build and run docker image You shoul to deleted it
+
+```
+docker ps -a
+docker rm {docker_id}
+
+```
 
 ## Usefull links:
 
